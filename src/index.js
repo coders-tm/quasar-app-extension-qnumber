@@ -11,10 +11,8 @@ function extendConf (conf, api) {
   conf.boot.push('~quasar-app-extension-qnumber/src/boot/register-qnumber.js')
 
   if (api.hasVite !== true) {
-    // make sure boot file transpiles
-    conf.build.transpileDependencies.push(/quasar-app-extension-qnumber[\\/]src[\\/]boot/)
-    // if boot file imports anything, make sure that
-    // the regex above matches those files too!
+    // make sure boot & component files transpile
+    conf.build.transpileDependencies.push(/quasar-app-extension-qpdfviewer[\\/]src/)
   }
 }
 
