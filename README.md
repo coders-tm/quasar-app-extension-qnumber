@@ -1,13 +1,11 @@
+[![npm Version](https://badgen.net/npm/v/quasar-app-extension-qnumber?color=green)](https://www.npmjs.com/package/quasar-app-extension-qnumber)
+[![npm Downloads](https://badgen.net/npm/dt/quasar-app-extension-qnumber?color=green)](https://www.npmjs.com/package/quasar-app-extension-qnumber)
+[![Bundlephobia](https://badgen.net/bundlephobia/minzip/quasar-app-extension-qnumber?color=green)](https://bundlephobia.com/result?p=quasar-app-extension-qnumber)
+
 Quasar App Extension qnumber
 ===
 
-_Be sure to change this readme as appropriate for your app extension._
-
-_Think about the organization of this file and how the information will be beneficial to the user._
-
-> Add a short description of your App Extension. What does it do? How is it beneficial? Why would someone want to use it?
-
-The QInput component is used to capture text input from the user. It uses v-model, similar to a regular input. It has support for errors and validation, and comes in a variety of styles, colors, and types.
+The QNumber component is used to capture number input from the user. It uses v-model, similar to a regular input. It has support for errors and validation, and comes in a variety of styles, colors, and types.
 
 # Install
 ```bash
@@ -15,11 +13,28 @@ quasar ext add qnumber
 ```
 Quasar CLI will retrieve it from the NPM registry and install the extension to your project.
 
+## Example
 
-## Prompts
+```
+<q-number
+    v-model="modelValue"
+    @update:model-value="onChange"
 
-> Explain the prompts here
-
+    // options: https://vue-number-format.netlify.app/guide/config.html
+    :options="{
+        prefix: '$',
+        suffix: '',
+        separator: ',',
+        decimal: '.',
+        precision: 2,
+        prefill: true,
+        reverseFill: false,
+        min: false,
+        max: false,
+        nullValue: ''
+    }"
+/>
+```
 
 # Uninstall
 ```bash
