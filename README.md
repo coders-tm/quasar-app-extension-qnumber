@@ -2,7 +2,7 @@
 [![npm Downloads](https://badgen.net/npm/dt/quasar-app-extension-qnumber?color=green)](https://www.npmjs.com/package/quasar-app-extension-qnumber)
 [![Bundlephobia](https://badgen.net/bundlephobia/minzip/quasar-app-extension-qnumber?color=green)](https://bundlephobia.com/result?p=quasar-app-extension-qnumber)
 
-Quasar App Extension qnumber
+Quasar App Extension QNumber
 ===
 
 The QNumber component is used to capture number input from the user. It uses v-model, similar to a regular input. It has support for errors and validation, and comes in a variety of styles, colors, and types.
