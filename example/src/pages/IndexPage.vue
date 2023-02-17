@@ -1,12 +1,6 @@
 <template>
   <q-page padding>
-    <q-number borderless v-model="price">
-      <template #prefix>
-        <div>
-          Hello
-        </div>
-      </template>
-    </q-number>
+    <q-number @update:model-value="onChange" :options="options"  dense outlined v-model="price"/>
   </q-page>
 </template>
 
@@ -14,8 +8,16 @@
 export default {
   data() {
     return {
-      price: 123456.98
+      price: 123456.98,
+      options: {
+        prefix: '$'
+      }
     }
   },
+  methods: {
+    onChange () {
+      console.log('onChange');
+    }
+  }
 }
 </script>

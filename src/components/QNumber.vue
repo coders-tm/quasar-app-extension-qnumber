@@ -3,7 +3,31 @@
     class="q-number"
     :model-value="modelValue"
     @update:model-value="onChange"
-    borderless
+    :label="label"
+    :stack-label="stackLabel"
+    :hint="hint"
+    :hide-hint="hideHint"
+    :prefix="prefix"
+    :suffix="suffix"
+    :label-color="labelColor"
+    :color="color"
+    :bg-color="bgColor"
+    :filled="filled"
+    :outlined="outlined"
+    :borderless="borderless"
+    :standout="standout"
+    :square="square"
+    :loading="loading"
+    :label-slot="labelSlot"
+    :bottom-slots="bottomSlots"
+    :hide-bottom-space="hideBottomSpace"
+    :rounded="rounded"
+    :dense="dense"
+    :clearable="clearable"
+    :clearIcon="clearIcon"
+    :disable="disable"
+    :readonly="readonly"
+    :autofocus="autofocus"
   >
     <template v-slot:control="{ id, modelValue, emitValue }">
       <vue-number
@@ -26,8 +50,7 @@ export default {
   props: {
     modelValue: [String, Number],
     placeholder: {
-      required: false,
-      type: [String],
+      type: String,
       default: "0.00",
     },
     options: {
@@ -36,7 +59,42 @@ export default {
           precision: 2,
           minimumFractionDigits: 2,
       })
-    }
+    },
+    label: String,
+    stackLabel: Boolean,
+    hint: String,
+    hideHint: Boolean,
+    prefix: String,
+    suffix: String,
+
+    labelColor: String,
+    color: String,
+    bgColor: String,
+
+    filled: Boolean,
+    outlined: Boolean,
+    borderless: Boolean,
+    standout: [Boolean, String],
+
+    square: Boolean,
+
+    loading: Boolean,
+
+    labelSlot: Boolean,
+
+    bottomSlots: Boolean,
+    hideBottomSpace: Boolean,
+
+    rounded: Boolean,
+    dense: Boolean,
+
+    clearable: Boolean,
+    clearIcon: String,
+
+    disable: Boolean,
+    readonly: Boolean,
+
+    autofocus: Boolean,
   },
   emits: ["update:model-value"],
   methods: {
@@ -51,4 +109,3 @@ export default {
   },
 };
 </script>
-  
