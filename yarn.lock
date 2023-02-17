@@ -3,6 +3,6 @@
 
 
 "@coders-tm/vue-number-format@^3.3.1":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@coders-tm/vue-number-format/-/vue-number-format-3.3.1.tgz#06e815cf5ba1defd57d292e32bacad92bb9162a7"
-  integrity sha512-NAFONAUefju8HjvBwRG29H9bR0/kZcFQIePFty/1l4OTP9Ketz1PiMt5ROu30Et0dkKIFVgCRl4x1E2sr9S2ew==
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/@coders-tm/vue-number-format/-/vue-number-format-3.13.0.tgz#848b87342117e0020cede68bbaa5a03b5cc51935"
+  integrity sha512-BTE9+llp8ExN7GH+wU0O72KXoZdn1+0EJQig8nnbikJU4HLDOwgp/gkPKTwYzopBmCNnOYWsCauTMeWEJoPmcw==
