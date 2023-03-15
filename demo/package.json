@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "fresh": "yarn add --dev file:../app-extension && quasar ext invoke qnumber",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
@@ -24,7 +25,8 @@
     "eslint-plugin-vue": "^9.0.0",
     "postcss": "^8.4.14",
     "prettier": "^2.5.1",
-    "quasar-app-extension-qnumber": "file:/Volumes/Work/qnumber"
+    "qnumber": "link:../",
+    "quasar-app-extension-qnumber": "file:../app-extension"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",

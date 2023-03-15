@@ -31,10 +31,14 @@ npm run format
 ```
 
 
-
 ### Build the app for production
 ```bash
 quasar build
+```
+
+### Install Qnumber
+```bash
+yarn fresh
 ```
 
 ### Customize the configuration

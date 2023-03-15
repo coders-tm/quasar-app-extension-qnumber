@@ -17,6 +17,9 @@ export default {
   methods: {
     onChange () {
       console.log('onChange');
+      setTimeout(() => {
+        this.price = 5005.256
+      }, 3000);
     }
   }
 }

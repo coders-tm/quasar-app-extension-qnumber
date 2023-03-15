@@ -34,7 +34,7 @@
         :id="id"
         class="q-field__input"
         :model-value="modelValue"
-        @update:model-value="emitValue"
+        @update:model-value="e => emitValue(e.value)"
         v-bind="options"
         :placeholder="placeholder"
       />
