@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "yarn && cd ./demo && yarn && quasar dev"
+    "dev": "yarn && cd ./demo && yarn && quasar dev",
+    "build": "yarn && cd ./demo && yarn && quasar build"
   }
 }
