@@ -1,6 +1,8 @@
-[![npm Version](https://badgen.net/npm/v/quasar-app-extension-qnumber?color=green)](https://www.npmjs.com/package/quasar-app-extension-qnumber)
-[![npm Downloads](https://badgen.net/npm/dt/quasar-app-extension-qnumber?color=green)](https://www.npmjs.com/package/quasar-app-extension-qnumber)
-[![Bundlephobia](https://badgen.net/bundlephobia/minzip/quasar-app-extension-qnumber?color=green)](https://bundlephobia.com/result?p=quasar-app-extension-qnumber)
+![quasar-app-extension-qnumber](https://img.shields.io/npm/v/quasar-app-extension-qnumber?label=quasar-app-extension-qnumber)
+![quasar-app-extension-qnumber](https://img.shields.io/npm/v/quasar-app-extension-qnumber?label=quasar-app-extension-qnumber)
+[![npm](https://img.shields.io/npm/dt/quasar-app-extension-qnumber)](https://www.npmjs.com/package/quasar-app-extension-qnumber)
+![quasar-app-extension-qnumber](https://img.shields.io/npm/dm/quasar-app-extension-qnumber)
+[![](https://data.jsdelivr.com/v1/package/npm/quasar-app-extension-qnumber/badge)](https://www.jsdelivr.com/package/npm/quasar-app-extension-qnumber)
 
 Quasar App Extension QNumber
 ===
