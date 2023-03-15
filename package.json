@@ -2,7 +2,9 @@
   "name": "qcalendar",
   "version": "1.2.0",
   "description": "QNumber mono-repo",
-  "workspaces": [],
+  "workspaces": [
+    "docs"
+  ],
   "author": "Dipak Sarkar <hello@dipaksarkar.in>",
   "license": "MIT",
   "private": true,
