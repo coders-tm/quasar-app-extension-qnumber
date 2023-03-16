@@ -1,6 +1,6 @@
 {
-  "name": "qcalendar",
-  "version": "1.2.0",
+  "name": "qnumber",
+  "version": "1.5.0",
   "description": "QNumber mono-repo",
   "workspaces": [
     "docs"
