@@ -2426,10 +2426,6 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
   integrity sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==
 
-"qnumber@link:..":
-  version "0.0.0"
-  uid ""
-
 qs@6.11.0:
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.0.tgz#fd0d963446f7a65e1367e01abd85429453f0c37a"
@@ -2438,7 +2434,7 @@ qs@6.11.0:
     side-channel "^1.0.4"
 
 "quasar-app-extension-qnumber@file:../app-extension":
-  version "1.2.0"
+  version "1.6.0"
   dependencies:
     "@coders-tm/vue-number-format" "^3.13.0"
 
