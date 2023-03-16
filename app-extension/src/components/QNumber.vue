@@ -34,7 +34,7 @@
         :id="id"
         class="q-field__input"
         :model-value="modelValue"
-        @update:model-value="e => emitValue(e.value)"
+        @update:model-value="emitValue($event)"
         v-bind="options"
         :placeholder="placeholder"
       />
@@ -100,7 +100,7 @@ export default {
   methods: {
     onChange(val) {
       this.$emit("update:model-value", val);
-    },
+    }
   },
   computed: {
     scopedSlots() {
