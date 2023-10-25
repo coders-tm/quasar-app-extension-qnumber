@@ -26,6 +26,11 @@
         <q-number disable :options="optionsReverseFill"  dense outlined v-model="reverseFill"/>
         <div class="text-secondary">Value: {{ reverseFill }}</div>
       </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="text-subtitle2">Min/Max</div>
+        <q-number :options="optionsMinMax"  dense outlined v-model="minMax"/>
+        <div class="text-secondary">Value: {{ minMax }}</div>
+      </div>
       <div class="col-xs-12 col-sm-12">
         <a href="https://github.com/coders-tm/quasar-app-extension-qnumber/blob/master/demo/src/pages/IndexPage.vue" target="_blank" rel="noopener noreferrer">Example</a>
       </div>
@@ -34,9 +39,7 @@
 </template>
 
 <script>
-// import QNumber from "components/QNumber.vue";
 export default {
-  // components: {QNumber},
   data() {
     return {
       price: 123456.98,
@@ -61,6 +64,14 @@ export default {
         reverseFill: true,
         min: undefined,
         max: undefined,
+        suffix: '',
+      },
+      minMax: '124',
+      optionsMinMax: {
+        prefix: '£',
+        reverseFill: false,
+        min: 100,
+        max: 10000,
         suffix: '',
       }
     }

@@ -20,6 +20,6 @@
     "yarn": ">= 1.6.0"
   },
   "dependencies": {
-    "@coders-tm/vue-number-format": "^3.33.0"
+    "@coders-tm/vue-number-format": "^3.34.0"
   }
 }
