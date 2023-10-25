@@ -16,6 +16,16 @@
         <q-number masked :options="optionsReverseFill"  dense outlined v-model="reverseFill"/>
         <div class="text-secondary">Value: {{ reverseFill }}</div>
       </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="text-subtitle2">Readonly</div>
+        <q-number readonly :options="optionsReverseFill"  dense outlined v-model="reverseFill"/>
+        <div class="text-secondary">Value: {{ reverseFill }}</div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="text-subtitle2">Disable</div>
+        <q-number disable :options="optionsReverseFill"  dense outlined v-model="reverseFill"/>
+        <div class="text-secondary">Value: {{ reverseFill }}</div>
+      </div>
       <div class="col-xs-12 col-sm-12">
         <a href="https://github.com/coders-tm/quasar-app-extension-qnumber/blob/master/demo/src/pages/IndexPage.vue" target="_blank" rel="noopener noreferrer">Example</a>
       </div>

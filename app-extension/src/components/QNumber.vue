@@ -41,6 +41,8 @@
         @change="onChange($event, emitValue)"
         @blur="onBlur($event, emitValue)"
         v-number="options"
+        :readonly="readonly"
+        :disabled="disable"
       />
     </template>
     <template v-for="slot in scopedSlots" v-slot:[slot]="props">
