@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@coders-tm/vue-number-format@^3.34.0":
-  version "3.34.0"
-  resolved "https://registry.yarnpkg.com/@coders-tm/vue-number-format/-/vue-number-format-3.34.0.tgz#1040654495758a0998d094a34f96165f3b969ea1"
-  integrity sha512-70jLxp4nUYnrtSDlkPlI49viht/L8R2Mt59S27YUh7sJyCwGQukU1HBcPRUb9Ti2IRpJCA59PB9zw0L0hfBCDg==
+"@coders-tm/vue-number-format@^3.34.1":
+  version "3.34.1"
+  resolved "https://registry.yarnpkg.com/@coders-tm/vue-number-format/-/vue-number-format-3.34.1.tgz#07f3596657610daa83e678661df0d4d1dd7e7662"
+  integrity sha512-dUHS15GbG+VTViw6WUnwhYBvtm1FNO4hO1fvRtDWRzsjYnTl9Kp9oHdh7wINa/nMdP7/w4PEalrzUuCUCfQ+fw==

@@ -12,7 +12,7 @@ function extendConf (conf, api) {
 
   if (api.hasVite !== true) {
     // make sure boot & component files transpile
-    conf.build.transpileDependencies.push(/quasar-app-extension-qpdfviewer[\\/]src/)
+    conf.build.transpileDependencies.push(/quasar-app-extension-qnumber[\\/]src/)
   }
 }
 
