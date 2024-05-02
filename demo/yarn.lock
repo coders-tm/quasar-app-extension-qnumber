@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.20.15.tgz#eec9f36d8eaf0948bb88c87a46784b5ee9fd0c89"
   integrity sha512-DI4a1oZuf8wC+oAJA9RW6ga3Zbe8RZFt7kD9i4qAspz3I/yHet1VvC3DiSy/fsUvv5pvJuNPh0LPOdCcqinDPg==
 
-"@coders-tm/vue-number-format@^3.34.0":
-  version "3.34.0"
-  resolved "https://registry.yarnpkg.com/@coders-tm/vue-number-format/-/vue-number-format-3.34.0.tgz#1040654495758a0998d094a34f96165f3b969ea1"
-  integrity sha512-70jLxp4nUYnrtSDlkPlI49viht/L8R2Mt59S27YUh7sJyCwGQukU1HBcPRUb9Ti2IRpJCA59PB9zw0L0hfBCDg==
+"@coders-tm/vue-number-format@^3.34.1":
+  version "3.34.1"
+  resolved "https://registry.yarnpkg.com/@coders-tm/vue-number-format/-/vue-number-format-3.34.1.tgz#07f3596657610daa83e678661df0d4d1dd7e7662"
+  integrity sha512-dUHS15GbG+VTViw6WUnwhYBvtm1FNO4hO1fvRtDWRzsjYnTl9Kp9oHdh7wINa/nMdP7/w4PEalrzUuCUCfQ+fw==
 
 "@esbuild/linux-loong64@0.14.54":
   version "0.14.54"
@@ -2396,9 +2396,9 @@ qs@6.11.0:
     side-channel "^1.0.4"
 
 "quasar-app-extension-qnumber@file:../app-extension":
-  version "2.1.2"
+  version "2.1.4"
   dependencies:
-    "@coders-tm/vue-number-format" "^3.34.0"
+    "@coders-tm/vue-number-format" "^3.34.1"
 
 quasar@^2.13.0:
   version "2.13.0"
