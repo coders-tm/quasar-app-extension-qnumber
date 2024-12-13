@@ -6,6 +6,7 @@ QNumber Quasar App Extension
 [![npm](https://img.shields.io/npm/dt/quasar-app-extension-qnumber)](https://www.npmjs.com/package/quasar-app-extension-qnumber)
 ![quasar-app-extension-qnumber](https://img.shields.io/npm/dm/quasar-app-extension-qnumber)
 [![](https://data.jsdelivr.com/v1/package/npm/quasar-app-extension-qnumber/badge)](https://www.jsdelivr.com/package/npm/quasar-app-extension-qnumber)
+[![Sponsor Me on GitHub](https://img.shields.io/badge/sponsor-me-blue?logo=github)](https://github.com/sponsors/dipaksarkar)
 
 
 ## Everything you need for a complete Calendar solution.
@@ -37,6 +38,12 @@ The workflow to build the demo, on a fresh project, is as follows (note: this pr
 ```
 yarn dev
 ```
+
+# Support me
+
+If you find my work helpful, or you want to support the development, star the repo or buy me a coffee:
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/dipaksarkar)
 
 # Donate
 If you appreciate the work that went into this, please consider donating to [Quasar](https://donate.quasar.dev)
